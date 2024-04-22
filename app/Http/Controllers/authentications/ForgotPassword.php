@@ -3,9 +3,8 @@
 namespace App\Http\Controllers\authentications;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 
-class ForgotPasswordBasic extends Controller
+class ForgotPasswordController extends Controller
 {
   public function index()
   {
